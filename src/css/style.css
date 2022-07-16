@@ -13,7 +13,7 @@ body{
     text-align: center;
     max-width: 600px;
     min-width: 280px;
-    height: 500px;
+    height: 100%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -35,6 +35,7 @@ body{
 }
 .styleImage:hover{
     border-color: #00ff00;
+    box-shadow: 0 0 10px #00ff00 , 0 0 40px #00ff00, 0 0 80px #00ff00;
 }
 .styleImage img{
     width: 100px;
@@ -64,10 +65,14 @@ body{
 }
 .container .parteIntro h1 span:hover{
     color: #5b3f5b;
+    text-shadow: 0 0 15px #cd85ff, 0 0 65px #cd85ff, 0 0 95px	#cd85ff;
+    /* box-shadow: ; */
 }
 .parteLinks ul{
     list-style: none;
-    margin: 25px 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    /* margin: 25px 0; */
 }
 .parteLinks ul li a{
     height: 50px;
@@ -89,6 +94,7 @@ body{
 }
 .parteLinks ul li a:hover{
     background-color:#000000BB ;
+    box-shadow: 0 0 10px #2196f3 , 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 footer{
     font-weight: 500;
