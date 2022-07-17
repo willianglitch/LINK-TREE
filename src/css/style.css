@@ -1,5 +1,5 @@
 body{
-    background-color: #000 ;
+    background-color: var(--black)  ;
     background-image: url(https://wallpaperaccess.com/full/279114.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@ body{
     /* justify-content: center; */
     flex-direction: column;
     /* border: solid 7px yellow ; */
-    background-color: #00053BBB;
+    background-color: var(--dark-blue);
     text-align: center;
     max-width: 600px;
     min-width: 280px;
@@ -19,23 +19,23 @@ body{
     margin-bottom: 50px;
 }
 .parteIntro{
-    background-color:#140F03BB;
+    background-color:var(--dark-brown);
     border-radius: 10px 0px 200px 0px;
-    color:#9AA095;
+    color:var(--grey);
 }
 .styleImage{
     box-sizing:border-box;
     display: inline-block;
     border-radius: 50%;
-    border: solid #fff 4px;
+    border: solid var(--white) 4px;
     padding: 5px;
     margin-top: 20px;
     cursor: pointer;
     transition: 0.4s;
 }
 .styleImage:hover{
-    border-color: #00ff00;
-    box-shadow: 0 0 10px #00ff00 , 0 0 40px #00ff00, 0 0 80px #00ff00;
+    border-color: var(--mega-light-green);
+    box-shadow: 0 0 10px var(--mega-light-green) , 0 0 40px var(--mega-light-green), 0 0 80px var(--mega-light-green);
 }
 .styleImage img{
     width: 100px;
@@ -46,7 +46,7 @@ body{
     justify-content: center;
 }
 .parteIntro p{
-    color: #80877C;
+    color: var(--dark-grey-tone);
     padding-bottom: 10px;
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-size: 17px;
@@ -61,11 +61,11 @@ body{
     transition: 0.2s;
 }
 .container .parteIntro h1:hover{
-    color: #588163;
+    color: var(--weak-dark-green);
 }
 .container .parteIntro h1 span:hover{
-    color: #5b3f5b;
-    text-shadow: 0 0 15px #cd85ff, 0 0 65px #cd85ff, 0 0 95px	#cd85ff;
+    color: var(--dark-purple);
+    text-shadow: 0 0 15px var(--purple), 0 0 65px var(--purple), 0 0 95px var(--purple);
     /* box-shadow: ; */
 }
 .parteLinks ul{
@@ -79,11 +79,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#140F03BB;
+    background-color: var(--dark-brown);
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: #9AA095;
+    color: var(--grey);
     text-transform: uppercase;
     font-size: 15px;
     /* margin-bottom: 15px; */
@@ -93,12 +93,12 @@ body{
     transition: 0.2s;
 }
 .parteLinks ul li a:hover{
-    background-color:#000000BB ;
-    box-shadow: 0 0 10px #2196f3 , 0 0 40px #2196f3, 0 0 80px #2196f3;
+    background-color:var(--black-black);
+    box-shadow: 0 0 10px var(--light-blue), 0 0 40px var(--light-blue), 0 0 80px var(--light-blue);
 }
 footer{
     font-weight: 500;
     font-size: 14px;
-    color: #888888;
+    color: var(--another-gray-tone);
     opacity: 0.6;
 }

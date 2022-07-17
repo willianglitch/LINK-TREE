@@ -1,0 +1,8 @@
+@media (max-width: 500px){
+    body{
+        background-color: var(--black)  ;
+        background-image: url(https://i.pinimg.com/originals/51/45/b7/5145b703be9699e0e0557d43b65a1b56.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
