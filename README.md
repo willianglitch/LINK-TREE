@@ -1,6 +1,6 @@
 # LINK-TREE
 
-<p>criando um layout simples , más totalmente funcional procurando aperfeiçoar minhas habilidades.</p>
+<p>Criando um layout simples, más totalmente funcional procurando aperfeiçoar minhas habilidades.</p>
 <p>Vamos dê uma olhadinha nessa aplicação  😏  😏 </p>
 
 
