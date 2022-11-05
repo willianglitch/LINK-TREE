@@ -1,7 +1,9 @@
 # LINK-TREE
 
-<p>Criando um layout simples, más totalmente funcional procurando aperfeiçoar minhas habilidades.</p>
-<p>Vamos dê uma olhadinha nessa aplicação  😏  😏 </p>
+<p>EM DESENVOLVIMENTO</p>
+
+## PREVIW : https://www.figma.com/file/JmwWC4rJbwVMxRQcOu9iyn/Portfolio-Site?node-id=50%3A2
+
 
 
 <div align="center"> 
