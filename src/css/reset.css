@@ -4,3 +4,19 @@
     outline: none; 
     box-sizing: border-box; 
 }
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--green-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --black: #131716;
+    --green-100: #B4C4C3;
+    --green-200: #899E8F;
+    --green-300: #4C6869;
+    --green-400: #203526;
+    --lightbshadow: rgba(0,0,0,0.9);
+}

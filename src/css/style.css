@@ -1,0 +1,37 @@
+.container{
+  height: 80%;
+  width: 85%;
+  background: var(--black);
+  border: solid 4px var(--green-100);
+  border-radius: 100px ;
+  position: relative;
+  padding: 20px;
+}
+.square{
+  height: 40px;
+  width: 40px;
+  background: var(--green-300);
+  border-radius: 6px;
+  border: solid 1px var(--green-100);
+}
+.square-01{
+  position: absolute;
+  transform: translateY(-50%);
+}
+.square-02{
+  position: absolute;
+  bottom: 0%;
+}
+.container main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+.card{
+  height: fit-content;
+  width: fit-content;
+
+}
