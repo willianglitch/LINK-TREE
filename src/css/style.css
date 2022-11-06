@@ -1,11 +1,11 @@
 .container{
   height: 80%;
   width: 85%;
-  background: var(--black);
   border: solid 4px var(--green-100);
   border-radius: 100px ;
   position: relative;
   padding: 20px;
+  
 }
 .square{
   height: 40px;
@@ -17,6 +17,7 @@
 .square-01{
   position: absolute;
   transform: translateY(-50%);
+  animation: move 2s infinite;
 }
 .square-02{
   position: absolute;
@@ -33,5 +34,73 @@
 .card{
   height: fit-content;
   width: fit-content;
-
+  padding: 40px 50px;
+  position: relative;
+  background: var(--black);
+  border: 5px solid var(--green-400);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
 }
+.card .content-img{
+  height: 154px;
+  width: 154px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/card-img.png) no-repeat center;
+  position: absolute;
+  transform: translateY(-85%);
+  border: solid 4px var(--green-100);
+  border-radius: 50%; 
+}
+.card .content h1{
+  margin-top: 32px;
+  font-size: 32px;
+  color: var(--green-200);
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-align: center;
+}
+.card .content p{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--green-100);
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.card .content ul p{
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 14px;
+}
+.card .content ul li{
+  height: 50px;
+  width: 270px;
+  background: var(--green-200);
+  border: 2px solid var(--green-300);
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.card .content ul li a{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--green-400);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.card .content .icon{
+  display: flex;
+  justify-content: center;
+}
+.card .content img{
+  height: 70px;
+  margin-top: 10px;
+}
+
