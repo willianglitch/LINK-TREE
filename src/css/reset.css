@@ -24,7 +24,16 @@ ul{
     --green-400: #203526;
     --lightbshadow: rgba(0,0,0,0.9);
 }
-@keyframes spin{
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%)rotate(360deg);
+    }
+}
+
+/* @keyframes spin{
     0%{
         transform: rotate(0deg);
     }
@@ -38,4 +47,4 @@ ul{
 }
 @keyframes move{
   
-}
+} */

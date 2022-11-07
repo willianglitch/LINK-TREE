@@ -1,29 +1,28 @@
-.container{
-  height: 80%;
+.container {
+  height: 95%;
   width: 85%;
   border: solid 4px var(--green-100);
-  border-radius: 100px ;
+  border-radius: 100px;
   position: relative;
   padding: 20px;
-  
 }
-.square{
+.square {
   height: 40px;
   width: 40px;
   background: var(--green-300);
   border-radius: 6px;
   border: solid 1px var(--green-100);
 }
-.square-01{
+.square-01 {
   position: absolute;
   transform: translateY(-50%);
   animation: move 2s infinite;
 }
-.square-02{
+.square-02 {
   position: absolute;
   bottom: 0%;
 }
-.container main{
+.container main {
   height: 100%;
   width: 100%;
   display: flex;
@@ -31,30 +30,64 @@
   justify-content: center;
   border-radius: 100px;
 }
-.card{
+.card {
   height: fit-content;
   width: fit-content;
   padding: 40px 50px;
   position: relative;
   background: var(--black);
-  border: 5px solid var(--green-400);
   border-radius: 20px;
   display: flex;
   justify-content: center;
+  transition: 0.5s;
 }
-.card .content-img{
-  height: 154px;
-  width: 154px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card .lines {
+  position: absolute;
+  inset: 0;
+  background: var(--green-400);
+  overflow: hidden;
+  border-radius: 20px;
+}
+.card .lines::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 750px;
+  height: 150px;
+  background: linear-gradient(
+    transparent,
+    var(--green-100),
+    var(--green-100),
+    var(--green-100),
+    transparent
+  );
+  animation: animate 4s linear infinite;
+}
+.card .lines::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  background: var(--black);
+  border-radius: 20px;
+}
+.card .content-img {
   background: url(../assets/card-img.png) no-repeat center;
   position: absolute;
-  transform: translateY(-85%);
+  top: -50px;
+  left: 50%;
+  height: 154px;
+  width: 154px;
+  transform: translateX(-50%);
   border: solid 4px var(--green-100);
-  border-radius: 50%; 
+  border-radius: 50%;
+  transition: 0.8s;
 }
-.card .content h1{
+.content {
+  position: relative;
+  margin-top: 40px;
+}
+.card .content h1 {
   margin-top: 32px;
   font-size: 32px;
   color: var(--green-200);
@@ -62,7 +95,7 @@
   font-weight: normal;
   text-align: center;
 }
-.card .content p{
+.card .content p {
   font-size: 18px;
   text-transform: uppercase;
   color: var(--green-100);
@@ -70,12 +103,12 @@
   text-align: center;
   margin-bottom: 34px;
 }
-.card .content ul p{
+.card .content ul p {
   font-size: 12px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 14px;
 }
-.card .content ul li{
+.card .content ul li {
   height: 50px;
   width: 270px;
   background: var(--green-200);
@@ -83,7 +116,12 @@
   border-radius: 8px;
   margin-bottom: 14px;
 }
-.card .content ul li a{
+.card .content ul li :hover{
+  background: var(--green-400);
+  color: var(--green-200);
+  border-color: var(--green-100);
+}
+.card .content ul li a {
   text-decoration: none;
   font-size: 24px;
   font-weight: 400;
@@ -95,12 +133,11 @@
   justify-content: center;
   text-transform: uppercase;
 }
-.card .content .icon{
+.card .content .icon {
   display: flex;
   justify-content: center;
 }
-.card .content img{
+.card .content img {
   height: 70px;
   margin-top: 10px;
 }
-
