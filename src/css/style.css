@@ -31,22 +31,6 @@
   background: var(--green-200);
   border-radius: 100px;
 }
-.square {
-  height: 40px;
-  width: 40px;
-  background: var(--green-300);
-  border-radius: 6px;
-  border: solid 1px var(--green-100);
-}
-.square-01 {
-  position: absolute;
-  transform: translateY(-50%);
-  animation: move 2s infinite;
-}
-.square-02 {
-  position: absolute;
-  bottom: 0%;
-}
 .container main {
   height: 100%;
   width: 100%;
