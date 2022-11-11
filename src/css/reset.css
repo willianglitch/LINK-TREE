@@ -12,6 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Serif', serif;
+    transition: ease;
+    animation: show 2s linear;
 }
 ul{
     list-style: none;
@@ -33,18 +35,11 @@ ul{
     }
 }
 
-/* @keyframes spin{
+@keyframes show{
     0%{
-        transform: rotate(0deg);
+        opacity: 0;
     }
     100%{
-        transform: rotate(360deg);
+        opacity: 1;
     }
-    0%{
-        transform: rotate(0deg);
-    }
-
 }
-@keyframes move{
-  
-} */

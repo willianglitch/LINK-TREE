@@ -1,8 +1,6 @@
-@media(min-width: 800px){
+@media(max-width: 1500px){
 .container {
-  height: 95%;
   width: 95%;
-  /* border: solid 4px var(--green-100); */
   border-radius: 100px;
   position: relative;
   padding: 0;
@@ -29,8 +27,6 @@
 .card .content ul li {
   height: 40px;
   width: 250px;
-  background: var(--green-200);
-  border: 2px solid var(--green-300);
   border-radius: 8px;
   margin-bottom: 10px;
 }
@@ -40,5 +36,45 @@
 .card .content img {
   height: 30px;
   margin-top: 0;
+}
+}
+@media(max-width: 800px){
+.container {
+  height: 80%;
+  width: 90%;
+  padding: 0;
+}
+}
+@media(max-width: 380px){
+.container {
+  height: 98%;
+  width: 100%;
+  padding: 0;
+}
+}
+@media(max-width: 300px){
+.container {
+  height: 98%;
+  width: 100%;
+  padding: 0;
+}
+.card {
+  padding: 10px 20px;
+}
+.card .content-img {
+  height: 114px;
+  width: 114px;
+}
+.card .content h1 {
+  font-size: 24px;
+}
+.card .content p {
+  font-size: 12px;
+}
+.card .content ul li {
+  width: 230px;
+}
+.card .content ul li a {
+  font-size: 18px;
 }
 }
