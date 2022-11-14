@@ -18,7 +18,7 @@ Design e projeto exclusivo para facilitar a localização de redes sociais.
 <br>
 
 <p align="center">
-  <img alt="link tree" src="../src/assets/LINK-TREE.png" width="100%">
+  <img alt="link tree" src=".github/LINK-TREE.png" width="100%">
 </p>
 
 <br>
